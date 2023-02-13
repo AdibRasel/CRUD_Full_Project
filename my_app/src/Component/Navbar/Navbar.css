@@ -1,0 +1,49 @@
+.Menu{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding: 0px 40px 0px 40px;
+    background-color: #333;
+    color: white;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.Left_Menu{
+    width: 40%;
+}
+.Left_Menu a{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+    transition: 700ms;
+    color: #00bfec;
+    text-decoration: none;
+}
+.Left_Menu a:hover{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.Right_Menu{
+    width: 60%;
+    text-align: right;
+}
+.Right_Menu a{
+    padding: 10px;
+    background-color: #9e9e9e;
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 700ms;
+}
+.Right_Menu a:hover{
+    background-color: #00bfec;
+    color: white;
+    text-decoration: none;
+}
