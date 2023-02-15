@@ -33,7 +33,8 @@ function Registration() {
                 if(Result === true){
                     alert("Registration Success")
                 }else{
-                    alert("Registration Fail")
+                    alert("Registration Fail");
+                    console.log("")
                 }
             })
 
